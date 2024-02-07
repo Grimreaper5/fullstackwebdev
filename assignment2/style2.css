@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    overflow: visible;
+
+}
+
+
+.body a {
+    size-adjust: 20%;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 22px ;
+    background: transparent;
+    transition: all ease;
+}
+
+.icon {
+    display: flex;
+    width: 80%;
+    padding-left: 10px;
+    gap: 20px;
+    font-size: var(--p-font);
+    font-weight: 500;
+    justify-content: space-evenly;
+    margin: 0 40px;
+    transform: translateX(-50px);
+      
+}
+
+.icon a {
+    color: rgb(0, 0, 0);
+}
+
+.icon a:hover {
+    color: rgb(210, 0, 0);
+}
+
+.icon a.active{
+    color: rgb(0, 0, 0)
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 0 40px;
+    height: 40px;
+    width: 45px;
+    
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0 25px;
+    transition: all ease .50s;
+    font-size: 14px;
+}
+.navbar a:hover{
+    color: rgb(225, 0, 0);
+}
+
+.box {
+    background-image: url("/kirabg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 0px 0px 2px 0px;
+    border-color: transparent;
+    
+}
+.about{
+    border: 80px solid hsl(0, 0%, 100%);
+}
+
+.about{
+    
+    position: relative;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px 90px;
+    
+    
+    
+}
+.about .image{
+    width: 700px;
+    height: 500px;
+    transform: translateY(-5px);
+
+}
+.about .image img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover ;
+}
+.about-text h1{
+    font-size: 50px;
+    color: azure;
+}
+
+.about h1.experience{
+    font-size: 50px;
+    color: rgb(241, 255, 47);
+}
+.about-text p{
+    margin-top: 15px;
+    line-height: 7px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: azure;
+}
+.btn {
+    display: inline-block;
+    padding: 14px 10px;
+    background:rgb(183, 88, 223);
+    border: 2px purple;
+    color:white;
+}
+.email {
+    display: inline-block;
+    padding: 14px 34px;
+    border: none;
+    background: white;
+}
+.bottom{
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 22px ;
+    background: transparent;
+    transition: all ease;
+}
+.bottom .no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    transition: all ease .50s;
+    font-size: 14px;
+}
+.no .no1{
+    justify-content: space-evenly;
+    margin-left: 220px ;
+    font-weight: 500;
+    align-items: center;
+}
+.no .no2{
+    justify-content: space-evenly;
+    margin-left:220px ;
+    font-weight: normal;
+    align-items: center;
+    color:rgb(138, 138, 138)
+}
